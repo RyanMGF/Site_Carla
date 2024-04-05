@@ -4,6 +4,9 @@
   font-family: sans-serif;
   box-sizing: border-box;
 }
+body{
+  background-color: #ece7e2;
+}
 
 .interface{
   max-width: 1280px;
@@ -64,6 +67,9 @@ header .carla-contato button{
   border: 0;
   border-radius: 30px;
   cursor: pointer;
+  position: relative;
+  left: -295px;
+  top: 5;
 }
 
 header .carla-contato button:hover{
@@ -119,11 +125,12 @@ p{
 }
 
 .images{
-  width: 45%;
-  height: 80%;
+  width: 40%;
+  height: 60%;
   position: absolute;
   bottom: 0;
   right: 100px;
+  top: 240px;
 }
 
 .images img{
