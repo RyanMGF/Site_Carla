@@ -1,57 +1,316 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Carla Gomes Makeup</title>
+	<title>CarlaMakeup</title>
 	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<!--Link Swiper's CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
-	<header>
-	<div class="interface">
-		<!--logo começo-->	
+ <!--Header-->
+ <header>
+	<!--Nav-->
+	<div class="nav container">
+		<!--Logo-->
 		<div class="logo">
-		  <a href="#">
-			<img src="imagens/Logo_Bege-removebg-preview.png" class="logo">  
-		</a>
+		<img src="imagens/Logo_Bege-removebg-preview.png" alt="logo">
+	    </div>
+		<div class="navbar">
+			<li><a href="#" class="nav-link">Sobre</a></li>
+			<li><a href="#" class="nav-link">Serviços</a></li>
+			<li><a href="#" class="nav-link">Trabalhos</a></li>
+			<a href="https://api.whatsapp.com/send/?phone=5583988638811&text=Oi%2C+tudo+bem%3F+Queria+mais+informa%C3%A7%C3%B5es+sobre+agendamentos%21+&type=phone_number&app_absent=0" target="_blank" class="register-btn btn">Fale Comigo!</a>
 		</div>
-		<!--logo fim-->
-		<nav class="menu-desktop">
-			<ul>
-				<li><a href="#">Início</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Serviços</a></li>
-			</ul>
-		</nav>
-		<!--Botão de contato-->
-		<div class="carla-contato">
-			<a href="https://heylink.me/meucontatoo" target="_blank">
-				<button>Contato</button>
-			</a>
-		</div>
-		 <!--Fim botão de contato-->
-	</header>
-
-	<main>
-	<!--Apresentação Carla-->
-	<section class="topo-do-site">
-		<div class="interface">
-
-		</div>
-	</section>
-		<div class="detel">
-			<h1> Eu sou <span>Carla Gomes</span></h1>
-			<p>Bem-Vindo! 
-				<br>Veja os detalhes e trabalhos em minhas maquiagens
-			</p>
-			<a href="https://www.instagram.com/carlagomeesmakeup/" target="_blank"> VEJA MAIS </a>
-		</div>
-	</main>
-		<!--Fim apresentação-->
-		<div class="images">
-			<img src="imagens/Design_sem_nome__1_-removebg-preview.png" class="carla">
+		<!--Menu Icon-->
+		<div class="menu-icon">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
 		</div>
 	</div>
+ </header>
+   <!--Home-->
+   <section class="home" id="home">
+	<div class="home-data container">
+		<!--Home text-->
+		<div class="home-text"> 
+			<h3>Descubra a beleza que você nunca pensou em usar</h3>
+			<h2>
+				Maquiagem é mais do que apenas maquiagem
+			     é uma forma de expressão!
+			</h2>
+			<div class="home-btns">
+				<a href="https://api.whatsapp.com/send/?phone=5583988638811&text=Oi%2C+tudo+bem%3F+Queria+mais+informa%C3%A7%C3%B5es+sobre+agendamentos%21+&type=phone_number&app_absent=0" target="_blank" class="book-btn btn">Agende Agora!</a>
+				<a href="https://heylink.me/meucontatoo" target="_blank" class="explore-btn btn">Explore</a>
+			</div>
+        <!--Home Image-->
+		<div class="home-img">
+			<img src="imagens/7BF88FDE-F7E8-48EC-A1BE-435CA37F5DC3.JPG" alt="">
+		</div>
+		<!--Contact Info-->
+		  <div class="contact-info">
+			<div class="contact-info-box">
+				<i class='bx bxs-map'></i>
+				<span> R. Florípedes Coutinho, 76 - Bodocongó, Campina Grande</span>
+			</div>
+			<div class="contact-info-box">
+				<i class='bx bxl-whatsapp-square' ></i>
+				<span> (83) 9 8863-8811</span>
+			</div>
+			<div class="contact-info-box">
+				<i class='bx bxs-envelope'></i>
+				<span> carlalayse@gmail.com</span>
+			</div>
+		  </div>
+		</div>
+		<!--2nd Imagem Home para Mobile-->
+          <div class="home-bg">
+			<img src="imagens/7BF88FDE-F7E8-48EC-A1BE-435CA37F5DC3.JPG" alt="">
+		  </div>
+	</div>
+   </section>
+   <!--Sobre-->
+   <section class="about-container" id="about">
+    <!--Sobre Texto-->
+	<div class="about-text">
+	<!--Heading-->
+	<h2 class="about container">Sobre Mim</h2>
+	<h1>30 anos, e maquiadora à 9 anos!</h1>
+	<p>
+		Trabalho com maquiagem social. com durabilidade e naturalidade e leveza.<br>
+Amo o mundo da maquiagem artística!
+É minha paixão, amo criar e tornar o lúdico, real. Também penteadista, e com serviços de babyliss e escova.
+Aqui no Studio você sai pronta para o seu evento! <br>
+Vai ser um prazer receber você!!!
+	</p>
+	<a href="https://www.instagram.com/carlagomeesmakeup/"  target="_blank"  class="learn-more">
+		<span>Saiba Mais!</span> 
+		<i class='bx bx-right-arrow-alt'></i>
+	</a>
+</div>
+      <!--Sobre Data-->
+	  <div class="about-data">
+		<!--Box 1-->
+		<div class="about-box">
+			<img src="imagens/maquiagem_infantil.jpg" alt="">
+			<div class="about-overlay">
+				<div class="overlay-text">
+					<h2>MAQUIAGEM INFANTIL</h2>
+				</div>
+			</div>
+		</div>
+		<!--Box 2-->
+		<div class="about-box">
+			<img src="imagens/Aluska_maquiagem_básica.jpg" alt="">
+			<div class="about-overlay">
+				<div class="overlay-text">
+					<h2>MAQUIAGEM SOCIAL</h2>
+				</div>
+			</div>
+		</div>
+		<!--Box 3-->
+		<div class="about-box">
+			<img src="imagens/maquiagem_noiva_cadaver.jpg" alt="">
+			<div class="about-overlay">
+				<div class="overlay-text">
+					<h2>MAQUIAGEM ARTÍSTICA</h2>
+				</div>
+			</div>
+		</div>
+	  </div>
+   	</section>
+	<!--Serviços-->
+	<section class="services container" id="services">
+		<!--Service Content-->
+		<div class="swiper services-content">
+			<div class="swiper-wrapper">
+				<!--Slide 1-->
+			  <div class="swiper-slide">
+				<div class="service-box">
+					<div class="ser-img">
+						<img src="imagens/Maquiagem_pro_modelo.jpg" alt="">
+					</div>
+					<div class="box-data">
+						<h2 class="heading">Nossos Serviços</h2>
+						<h2>Maquiagem Social</h2>
+						<p>
+							A maquiagem conta com produtos de alta qualidade e selecionados, e técnica de resistência para ter a durabilidade desejada e aproveitar o seu evento sem preocupações! <br>
+                            O tempo da nossa produção é entre 40 minutos e 1 hora.
+						</p>
+                         <div class="package">
+							<div class="p-box">
+								<i class='bx bxs-badge-check'></i>
+								<span>NÃO INCLUI:
+									Delineados Gráficos</span>
+							</div>
+							<div class="p-box">
+								<i class='bx bxs-info-square'></i>
+								<span>Pedrarias em excesso e desenhos</span>
+							</div>
+							<!--Btn-->
+							<a href="#" class="book-now btn">Mais</a>
+						 </div>
+					</div>
+				</div>
+			  </div>
+			  <!--Fim Box 1-->
+			  <!--Slide 2-->
+			  <div class="swiper-slide">
+				<div class="service-box">
+					<div class="ser-img">
+						<img src="imagens/maquiagem_palhaço.jpg" alt="">
+					</div>
+					<div class="box-data">
+						<h2 class="heading">Nossos Serviços</h2>
+						<h2>Maquiagem Artística</h2>
+						<p>
+							A maquiagem tem o seu preço e tempo especificado a partir de uma avaliação. 
+Mandem as fotos de referência ou ideias e avaliamos juntos a melhor forma de execução.
 
+						</p>
+                         <div class="package">
+							<div class="p-box">
+								<i class='bx bxs-info-square'></i>
+								<span>
+A produção não inclui roupas, acessórios, ou lentes de contato. Toda a parte de personalização fica por conta do cliente.
+</span>
+							</div>
+							<!--Btn-->
+							<a href="#" class="book-now btn">Mais</a>
+						 </div>
+					</div>
+				</div>
+			</div> 
+			    <!--Fim Box2-->
+				<!--Slide3-->
+			 <div class="swiper-slide">
+				<div class="service-box">
+					<div class="ser-img">
+						<img src="imagens/maquiagem_infantil_box.jpg" alt="">
+					</div>
+					<div class="box-data">
+						<h2 class="heading">Nossos Serviços</h2>
+						<h2>Maquiagem Infantil</h2>
+						<p>
+							A maquiagem social infantil, é indicada para crianças de 2 anos até 11, sendo usado produtos hipoalergênicos, para não haver irritabilidade.
+							<br> Trata de uma maquiagem leve apenas para realçar e embelezar a criança.
+
+						</p>
+                         <div class="package">
+							<div class="p-box">
+								<i class='bx bxs-info-square'></i>
+								<span>Não Inclui: cílios postiços, sombras fortes, base, corretivo.</span>
+							</div>
+							<!--Btn-->
+							<a href="#" class="book-now btn">Mais</a>
+						 </div>
+					</div>
+				</div>
+			  </div>
+			  <!--Fim Box 3-->
+			  <!--Box 4-->
+			  <div class="swiper-slide">
+				<div class="service-box">
+					<div class="ser-img">
+						<img src="imagens/antes-e-depois_maquiagem_noiva.jpg" alt="">
+					</div>
+					<div class="box-data">
+						<h2 class="heading">Nossos Serviços</h2>
+						<h2>Maquiagem para Noivas</h2>
+						<p>
+						    A maquiagem de noiva é feita com muita delicadeza e cuidado para que a noiva fique com um visual delicado e natural, mas, ao mesmo tempo, bem cuidada. O objetivo é fazer com que a noiva se sinta confortável,
+						    confidente e deslumbrante em seu dia especial.
+						</p>
+                         <div class="package">
+							<div class="p-box">
+								<i class='bx bxs-info-square'></i>
+								<span>A noiva esta livre para solicitar a presença de fotógrafos e filmakers.</span>
+							</div>
+							<!--Btn-->
+							<a href="#" class="book-now btn">Mais</a>
+						 </div>
+					</div>
+				</div>
+			  </div>
+			  <!--Fim Box 4-->
+			  <!--Box 5-->
+			  <div class="swiper-slide">
+				<div class="service-box">
+					<div class="ser-img">
+						<img src="imagens/penteado_uene.jpg" alt="">
+					</div>
+					<div class="box-data">
+						<h2 class="heading">Nossos Serviços</h2>
+						<h2>Penteados</h2>
+						<p> O seu valor não inclui o serviço de escova (pode ser adicionado à parte). <br>
+							Portanto o cabelo deve vir pronto -limpo e escovado- apenas para sua execução. <br>
+							Não inclui colocação de véu ou grinalda, pois é um serviço exclusivo para noivas.
+						</p>
+                         <div class="package">
+							<div class="p-box">
+								<i class='bx bxs-info-square'></i>
+								<span>OBS: Não hidratar os fios, pois o penteado pode não sustentar.</span>
+							</div>
+							<!--Btn-->
+							<a href="#" class="book-now btn">Mais</a>
+						 </div>
+					</div>
+				</div>
+			  </div>
+			  <!--Fim Box5-->
+			</div>
+			</div>
+			</div>
+			<div class="slider-btns">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+        </div>
+		  </div>
+	</section>
+	<!--Trabalhos-->
+	<section class="testimonial container" id="testimonial">
+		<h2 class="heading">Trabalhos</h2>
+		<h3>Veja alguns dos meus <br> Trabalhos de maquiagem!
+		</h3>
+		<!--Trabalhos Data-->
+		<div class="testimonial-data">
+			<!--Box 1-->
+			<div class="t-box">
+				<div class="t-image">
+					<img src="imagens/trabalhos3.jpg" alt="">
+					<i class='bx bxs-quote-alt-right'></i>
+				</div>
+				<h2>Caroline</h2>
+				<p>Inspirada na personagem Caroline e seu universo!</p>
+			</div>
+			<!--Box 2-->
+			<div class="t-box">
+				<div class="t-image">
+					<img src="imagens/trabalhos4.jpg" alt="">
+					<i class='bx bxs-quote-alt-right'></i>
+				</div>
+				<h2>Make borboleta</h2>
+				<p>Inspirada pelas as asas das borboletas!</p>
+			</div>
+			<!--Box 3-->
+			<div class="t-box">
+				<div class="t-image">
+					<img src="imagens/trabalhos5.jpg" alt="">
+					<i class='bx bxs-quote-alt-right'></i>
+				</div>
+				<h2>Make </h2>
+				<p>Inspirada no céu, as Nuvens e o Arco-íris!</p>
+			</div>
+		</div>
+	</section>
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <!--Link to Js-->
+ <script src="main.js"></script>	
 </body>
+</html>
