@@ -57,10 +57,11 @@ header {
   align-items: center;
 }
 .logo img{
-  width: 115px;
-  height: 115px;
+  width: 165px;
+  height: 165px;
   position: relative;
   top: 0px;
+  left: 19px;
 }
 
 .navbar{
@@ -522,6 +523,7 @@ t-img .bx{
   padding: 14px 20px;
   font-size: 16px;
   transition: 0.3s all linear;
+  margin-top: 5vh;
 }
 .btn-curso a{
   display: block;
@@ -602,16 +604,26 @@ t-img .bx{
 .loader img{
   width: 140px;
 }
-
+.contact-info-box .bxl-whatsapp-square {
+  font-size: 2vh;
+  color: green;
+}
 /*Responsivo ao Mobile*/
 @media (max-width: 985px) {
   .container {
     margin: 0 auto;
     width: 90%;
-  }
-  header{
-    position: fixed;
   } 
+
+  .logo img {
+    width: 135px;
+    height: 135px;
+    top: 12px;
+  }
+  .register-btn{
+    top: 20px;
+    margin-right: 3vh;
+  }
   .home {
     min-height: 600px;
     padding-top: 7rem;
