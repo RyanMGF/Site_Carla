@@ -4,4 +4,4 @@
 O site deve ter uma seção de blog com dicas de maquiagem e tendências do momento, com conteúdo relevante e de qualidade. Além disso, existe a opção de agendar um horário com a maquiadora através de seu seu contato.</p>
 <a href="https://ryanmgf.github.io/carlagomesmakeup/" target="_blank">Clique aqui para testar o projeto</a>
 <p></p>
-<img src="https://ibb.co/1vc9ZML"/>
+<img src="imagens/25c24c89-8582-4ec4-a785-7da81adf4512.jpg"/>
